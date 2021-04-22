@@ -1,0 +1,51 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--全屏主题-->
+    <style name="FullScreenStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!--全透明主题-->
+    <style name="TransparencyStyle" parent="FullScreenStyle">
+        <item name="android:background">@color/transparency</item>
+        <item name="android:windowBackground">@color/transparency</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!--Activity进场。出场动画-->
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <!--用于设置打开新的Activity并进入新的Activity展示的动画-->
+        <item name="android:activityOpenEnterAnimation">@anim/alpha_in</item>
+        <!--用于设置打开新的Activity并销毁之前的Activity展示的动画-->
+        <item name="android:activityOpenExitAnimation">@anim/alpha_out</item>
+        <!--用于设置关闭当前Activity进入上一个Activity展示的动画-->
+        <item name="android:activityCloseEnterAnimation">@anim/alpha_in</item>
+        <!--用于设置关闭当前Activity时展示的动画-->
+        <item name="android:activityCloseExitAnimation">@anim/alpha_out</item>
+    </style>
+
+    <!-- popup dialog -->
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 自己想要的背景 -->
+        <item name="android:background">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>

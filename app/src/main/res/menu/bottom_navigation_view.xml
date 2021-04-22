@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home_home_page"/>
+
+    <item android:id="@+id/item_music"
+        android:icon="@drawable/ic_music_black_24dp"
+        android:title="@string/home_music"/>
+
+    <item android:id="@+id/item_list"
+        android:icon="@drawable/ic_my_black_24dp"
+        android:title="@string/home_catalogue"/>
+
+    <item android:id="@+id/item_find"
+        android:icon="@drawable/ic_camera_black_24dp"
+        android:title="@string/home_camera"/>
+</menu>

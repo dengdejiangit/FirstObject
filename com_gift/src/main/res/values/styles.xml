@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="open_pop_jin">
+        <item name="android:windowEnterAnimation">@anim/popshow_operation_anim_down</item>
+        <item name="android:windowExitAnimation">@anim/popshow_operation_anim_up</item>
+    </style>
+
+    <style name="open_pop_tui">
+        <item name="android:windowEnterAnimation">@anim/popshow_operation_anim_up</item>
+        <item name="android:windowExitAnimation">@anim/popshow_operation_anim_down</item>
+    </style>
+
+</resources>

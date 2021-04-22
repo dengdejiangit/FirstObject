@@ -1,0 +1,245 @@
+{
+  "defaultExtraInfo": {
+    "campaign": "0"
+  },
+  "channelInfoList": [
+    {
+      "channel": "HOME",
+      "alias": "HOMECampaign_1",
+      "extraInfo": {
+        "campaign": "Campaign_1"
+      }
+    },
+    {
+      "channel": "MI",
+      "alias": "MICampaign_1",
+      "extraInfo": {
+        "campaign": "Campaign_1"
+      }
+    },
+    {
+      "channel": "VIVO",
+      "alias": "VIVOCampaign_1",
+      "extraInfo": {
+        "campaign": "Campaign_1"
+      }
+    },
+    {
+      "channel": "OPPO",
+      "alias": "OPPOCampaign_1",
+      "extraInfo": {
+        "campaign": "Campaign_1"
+      }
+    },
+    {
+      "channel": "BAIDU",
+      "alias": "BAIDUCampaign_1",
+      "extraInfo": {
+        "campaign": "Campaign_1"
+      }
+    },
+    {
+      "channel": "YINGYONGBAO",
+      "alias": "YINGYONGBAOCampaign_1",
+      "extraInfo": {
+        "campaign": "Campaign_1"
+      }
+    },
+    {
+      "channel": "HUAWEI",
+      "alias": "HUAWEICampaign_1",
+      "extraInfo": {
+        "campaign": "Campaign_1"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_1",
+      "extraInfo": {
+        "campaign": "Campaign_1"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_2",
+      "extraInfo": {
+        "campaign": "Campaign_2"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_3",
+      "extraInfo": {
+        "campaign": "Campaign_3"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_4",
+      "extraInfo": {
+        "campaign": "Campaign_4"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_5",
+      "extraInfo": {
+        "campaign": "Campaign_5"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_6",
+      "extraInfo": {
+        "campaign": "Campaign_6"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_7",
+      "extraInfo": {
+        "campaign": "Campaign_7"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_8",
+      "extraInfo": {
+        "campaign": "Campaign_8"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_9",
+      "extraInfo": {
+        "campaign": "Campaign_9"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_10",
+      "extraInfo": {
+        "campaign": "Campaign_10"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_11",
+      "extraInfo": {
+        "campaign": "Campaign_11"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_12",
+      "extraInfo": {
+        "campaign": "Campaign_12"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_13",
+      "extraInfo": {
+        "campaign": "Campaign_13"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_14",
+      "extraInfo": {
+        "campaign": "Campaign_14"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_15",
+      "extraInfo": {
+        "campaign": "Campaign_15"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_16",
+      "extraInfo": {
+        "campaign": "Campaign_16"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_17",
+      "extraInfo": {
+        "campaign": "Campaign_17"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_18",
+      "extraInfo": {
+        "campaign": "Campaign_18"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_19",
+      "extraInfo": {
+        "campaign": "Campaign_19"
+      }
+    },
+    {
+      "channel": "TT",
+      "alias": "TTCampaign_20",
+      "extraInfo": {
+        "campaign": "Campaign_20"
+      }
+    },
+    {
+      "channel": "QH360",
+      "alias": "QH360Campaign_1",
+      "extraInfo": {
+        "campaign": "Campaign_1"
+      }
+    },
+    {
+      "channel": "QH360",
+      "alias": "QH360Campaign_2",
+      "extraInfo": {
+        "campaign": "Campaign_2"
+      }
+    },
+    {
+      "channel": "QH360",
+      "alias": "QH360Campaign_3",
+      "extraInfo": {
+        "campaign": "Campaign_3"
+      }
+    },
+    {
+      "channel": "QH360",
+      "alias": "QH360Campaign_4",
+      "extraInfo": {
+        "campaign": "Campaign_4"
+      }
+    },
+    {
+      "channel": "QH360",
+      "alias": "QH360Campaign_5",
+      "extraInfo": {
+        "campaign": "Campaign_5"
+      }
+    },
+    {
+      "channel": "QH360",
+      "alias": "QH360Campaign_6",
+      "extraInfo": {
+        "campaign": "Campaign_6"
+      }
+    },
+    {
+      "channel": "QH360",
+      "alias": "QH360Campaign_7",
+      "extraInfo": {
+        "campaign": "Campaign_7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+include ':com_dwac'
+include ':com_gift'
+include ':com_ydy'
+include ':app'

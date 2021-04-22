@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".code.home.view.HomeActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_home_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/view_home_bottom_navigation_view"/>
+
+    <View
+        android:id="@+id/line_above_bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:layout_above="@id/view_home_bottom_navigation_view"
+        android:background="@drawable/bg_shadow_top"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/view_home_bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:labelVisibilityMode="labeled"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@drawable/select_bottom_navigation_button"
+        app:itemTextColor="@drawable/select_bottom_navigation_button"
+        app:menu="@menu/bottom_navigation_view"/>
+
+</RelativeLayout>

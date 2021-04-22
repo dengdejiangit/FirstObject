@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ScrollTextView">
+        <attr name="clickEnable" format="boolean" />
+        <attr name="isHorizontal" format="boolean" />
+        <attr name="speed" format="integer" />
+        <attr name="text" format="string" />
+        <attr name="text_color" format="color" />
+        <attr name="text_size" format="dimension" />
+        <attr name="times" format="integer" />
+        <attr name="isScrollForever" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CalendarView">
+        <attr name="suffix_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="WeChatButtonView">
+        <attr name="minTime" format="integer"/>
+        <attr name="maxTime" format="integer"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="progressWidth" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="BatteryView">
+        <attr name="item_height" format="dimension"/>
+        <attr name="item_width" format="dimension"/>
+        <attr name="item_count" format="integer"/>
+    </declare-styleable>
+
+    <attr name="position">
+        <enum name="left_top" value= "0"/>
+        <enum name="left_bottom" value= "1"/>
+        <enum name="right_top" value= "2"/>
+        <enum name="right_bottom" value= "3"/>
+    </attr>
+
+    <declare-styleable name = "ArcMenuView">
+        <attr name="position" />
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="sb_shadow_radius" format="reference|dimension"/>
+        <attr name="sb_shadow_offset" format="reference|dimension"/>
+        <attr name="sb_shadow_color" format="reference|color"/>
+        <attr name="sb_uncheck_color" format="reference|color"/>
+        <attr name="sb_checked_color" format="reference|color"/>
+
+        <attr name="sb_border_width" format="reference|dimension"/>
+        <attr name="sb_checkline_color" format="reference|color"/>
+        <attr name="sb_checkline_width" format="reference|dimension"/>
+        <attr name="sb_uncheckcircle_color" format="reference|color"/>
+        <attr name="sb_uncheckcircle_width" format="reference|dimension"/>
+        <attr name="sb_uncheckcircle_radius" format="reference|dimension"/>
+
+        <attr name="sb_checked" format="reference|boolean"/>
+        <attr name="sb_shadow_effect" format="reference|boolean"/>
+        <attr name="sb_effect_duration" format="reference|integer"/>
+        <attr name="sb_button_color" format="reference|color"/>
+        <attr name="sb_show_indicator" format="reference|boolean"/>
+        <attr name="sb_background" format="reference|color"/>
+        <attr name="sb_enable_effect" format="reference|boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="barchar_style">
+        <attr name="barInterval" format="dimension" />
+        <attr name="bar_color" format="color" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="top_text_size" format="dimension" />
+        <attr name="top_text_color" format="color" />
+        <attr name="bottom_text_size" format="dimension" />
+        <attr name="bottom_text_color" format="color" />
+        <attr name="bottom_line_color" format="color" />
+    </declare-styleable>
+    
+    <declare-styleable name="CustomHistogramView">
+        <attr name="histogram_left_text" format="color"/>
+        <attr name="histogram_left_text_size" format="dimension"/>
+        <attr name="histogram_bottom_text" format="color"/>
+        <attr name="histogram_bottom_text_size" format="dimension"/>
+        <attr name="histogram_center_line" format="color"/>
+        <attr name="histogram_center_line_width" format="dimension"/>
+        <attr name="histogram_bottom_line" format="color"/>
+        <attr name="histogram_bottom_line_width" format="dimension"/>
+        <attr name="histogram_cylinder" format="color"/>
+        <attr name="histogram_padding_horizontal" format="dimension"/>
+
+    </declare-styleable>
+</resources>

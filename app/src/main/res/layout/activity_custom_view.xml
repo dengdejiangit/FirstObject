@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".code.view.CustomViewActivity">
+
+    <com.example.administrator.testproject.view.TestView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.example.administrator.testproject.view.TestGroupView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_20"
+            android:background="@color/black" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_20"
+            android:src="@color/black" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_20"
+            android:src="@color/black" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_20"
+            android:src="@color/black" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_20"
+            android:src="@color/black" />
+    </com.example.administrator.testproject.view.TestGroupView>
+
+    <com.example.administrator.testproject.view.BatteryView
+        android:id="@+id/view_batter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dp_20"
+        android:visibility="gone" />
+
+    <com.example.administrator.testproject.view.SportsView
+        android:id="@+id/view_sports"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_300"
+        android:visibility="gone" />
+
+    <com.example.administrator.testproject.view.DrawCubicView
+        android:id="@+id/view_cubic"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_300" />
+
+    <com.example.administrator.testproject.view.DrawQuadToView
+        android:id="@+id/view_quad_to"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_300"
+        android:layout_below="@id/view_cubic" />
+
+    <com.example.administrator.testproject.view.WeChatButtonView
+        android:id="@+id/wechat_button_view"
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="@dimen/dp_80"
+        android:layout_above="@id/view_batter"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:maxTime="10"
+        app:minTime="5" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <com.example.administrator.testproject.view.MyGiftView
+            android:id="@+id/view_gif"
+            android:layout_above="@id/iv_gif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_gif"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher" />
+    </RelativeLayout>
+
+    <com.example.administrator.testproject.view.BubbleView
+        android:id="@+id/view_bubble"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.example.administrator.testproject.view.ArcMenuView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:position="left_top"
+        app:radius="200dp">
+        <ImageView
+            android:id="@+id/id_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/app_icon"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/app_icon_round"
+            android:tag="Camera"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/app_icon_round"
+            android:tag="Music"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/app_icon_round"
+            android:tag="Place"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/app_icon_round"
+            android:tag="Sleep"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/app_icon_round"
+            android:tag="Thought"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/app_icon_round"
+            android:tag="People"/>
+
+    </com.example.administrator.testproject.view.ArcMenuView>
+
+    <com.example.administrator.testproject.view.BezierCircleView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <com.example.administrator.testproject.view.DragDotView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+    <com.example.administrator.testproject.view.others.SwitchButton
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+    <com.example.administrator.testproject.view.others.MySwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <com.example.administrator.testproject.view.others.MyScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:text="2332352" />
+
+                <com.example.administrator.testproject.view.others.MyBarChartView
+                    android:id="@+id/mybarCharView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:bar_color="#f9e5c9"
+                    app:bottom_line_color="#ededed"
+                    app:bottom_text_color="#939393"
+                    app:top_text_color="#939393" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:text="2332352" />
+
+                <com.example.administrator.testproject.view.others.MyBarChartView
+                    android:id="@+id/mybarCharView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:bar_color="#f9e5c9"
+                    app:bottom_line_color="#ededed"
+                    app:bottom_text_color="#939393"
+                    app:top_text_color="#939393" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:text="2332352" />
+
+                <com.example.administrator.testproject.view.others.MyBarChartView
+                    android:id="@+id/mybarCharView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:bar_color="#f9e5c9"
+                    app:bottom_line_color="#ededed"
+                    app:bottom_text_color="#939393"
+                    app:top_text_color="#939393" />
+            </LinearLayout>
+
+        </com.example.administrator.testproject.view.others.MyScrollView>
+    </com.example.administrator.testproject.view.others.MySwipeRefreshLayout>
+
+    <com.example.administrator.testproject.view.others.MyBarChartView
+        android:id="@+id/mybarCharView3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:bar_color="#f9e5c9"
+        android:visibility="gone"
+        app:bottom_line_color="#ededed"
+        app:bottom_text_color="#939393"
+        app:top_text_color="#939393" />
+
+    <com.example.administrator.testproject.view.others.CustomHistogramView
+        android:id="@+id/custom_histogram"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_400"
+        android:paddingLeft="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16"
+        android:paddingBottom="@dimen/dp_25"
+        android:paddingTop="@dimen/dp_16"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true" />
+
+    <com.example.administrator.testproject.view.WaterShape
+        android:layout_width="@dimen/dp_150"
+        android:layout_height="@dimen/dp_200"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <com.example.administrator.testproject.view.RotateIconView
+        android:id="@+id/riv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0F7FE7"
+        android:visibility="gone"/>
+
+    <com.example.administrator.testproject.view.DimAnimView
+        android:id="@+id/dav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.example.administrator.testproject.view.ScrollTextView
+        android:id="@+id/scroll_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:text="清卡分解那福克纳宁发你哥哥房间隔附件爱国呢发结案噶尔发敬爱鹅肝发苶阿甘恶搞"
+        app:text_size="12dp"
+        app:text_color="@color/white"
+        app:speed="10"
+        app:isScrollForever="true"
+        app:isHorizontal="true"/>
+</RelativeLayout>

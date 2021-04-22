@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_left"
+        android:layout_width="@dimen/dp_50"
+        android:layout_height="@dimen/dp_50"
+        android:paddingStart="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingEnd="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10"
+        android:src="@drawable/ic_back_black_24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/dp_60"
+        android:layout_marginLeft="@dimen/dp_60"
+        android:layout_marginEnd="@dimen/dp_60"
+        android:layout_marginRight="@dimen/dp_60"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="@string/app_text"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18" />
+
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="@dimen/dp_50"
+        android:layout_height="@dimen/dp_50"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingStart="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingEnd="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10"
+        android:src="@drawable/ic_settings_black_24dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:layout_marginBottom="-2dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_shadow_bottom"/>
+</RelativeLayout>
